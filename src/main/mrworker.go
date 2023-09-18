@@ -16,7 +16,7 @@ import (
 	"os"
 	"plugin"
 
-	"6.5840/mr"
+	"MapReduce/mr"
 )
 
 func main() {

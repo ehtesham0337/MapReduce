@@ -10,11 +10,10 @@ package main
 //
 
 import (
+	"MapReduce/mr"
 	"fmt"
 	"os"
 	"time"
-
-	"6.5840/mr"
 )
 
 func main() {
