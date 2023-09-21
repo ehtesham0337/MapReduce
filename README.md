@@ -17,7 +17,7 @@ It contains the distributed part of our implementation in the form of ```coordin
 # Running MapReduce
 - ```git clone https://github.com/ehtesham0337/MapReduce.git```
 - Open 2 separate terminals
-- Naviagte to the ```/MapReduce/src/main``` directory in both
+- Navigate to the ```/src/main``` directory in both
 - Build the word count plugin using ```go build -buildmode=plugin ../mrapps/wc.go```
 - Run the Coordinator using ```go run mrcoordinator.go pg*.txt```
 - In the 2nd terminal, run the worker (you may run more than 1 worker in separate terminals) using ```go run mrworker.go wc.so ```
